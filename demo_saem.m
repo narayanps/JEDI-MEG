@@ -98,7 +98,7 @@ truth.q=q;
 
 [state, params, LL_complete]= saem(init, model, opt_params, Y_avg, Y, Ns, Np, P, dist_thr, gpu_flag, whiten_flag);
 
-res_path='/m/nbe/scratch/braintrack/elife_res';
+res_path='enter_your_path_to_save';
 path = res_path; 
 type=3; 
 fname = sprintf(strcat(path,'/state_snr_%.1f_type_%d_sim_%d.mat'),bio_snr_arr(sim),type,sim);                                                                                                                                      
